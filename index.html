@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Fire-Load</title>
+    <style>
+        body {
+            background-image: url(http://acshub.co.uk/hubassets/uploads/2016/09/acs-website-background-building-e1472862899804.jpg);
+        }
+        
+        button {
+            border-radius: 10px;
+            background: lightblue;
+            color: aliceblue;
+            width: auto;
+            height: auto;
+            font-size: 25px;
+            padding: 5px 15px;
+        }
+        
+        button:hover {
+            cursor: pointer;
+        }
+        
+        h1 {
+            font-size: 45px;
+            margin-top: 20%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <h1> Fire-Load </h1>
+        <button onclick="up()" id="up"> Upload </button>
+        <button onclick="down() " id="down"> Download </button>
+    </center>
+</body>
+
+<script type="text/javascript">
+    function up() {
+        window.open("main.html", "_self");
+    }
+
+    function down() {
+        window.open("main_down.html", "_self");
+    }
+</script>
+
+</html>
